@@ -35,7 +35,7 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 sass:
-  sass_dir: /assets/css
+  sass_dir: "/assets/css"
   style: expanded
 
 # Exclude from processing.

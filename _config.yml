@@ -34,6 +34,7 @@ pdf-url: "/assets/verichain.pdf"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+sass: sass_dir: assets/css
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -12,3 +12,14 @@
   background-color: linear-gradient(67deg, #3ab4a9 0%, #54fd1d 50%, #fcec45 100%);
 }
 
+a {
+  color:#3ab4a9;
+  color: linear-gradient(67deg, #3ab4a9 0%, #54fd1d 50%, #fcec45 100%);
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#777;
+  font-weight: bold;
+}
+

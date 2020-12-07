@@ -24,7 +24,7 @@ There should be whitespace between paragraphs.
 ## Requirements For Such a Service
 
 1.  Completely public codebase, including each vector (frontend, backend, open-source API tools) ☑️
-2.  Capable of defense from scraping an entity's addresses ☑️
+2.  Capable of defense from scraping of an entity's addresses ☑️
 3.  Third-parties are able to verify the legitimacy of entities ☑️
 
 

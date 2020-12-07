@@ -41,43 +41,21 @@ Cryptographic signatures are built into web3js, allowing ECDSA-method signed mes
 
 
 
-### And a nested list:
+### Address Accreditation
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+- Entity Verification
+  - Public cryptographic (RSA) key available on entity's web presence
+  - Randomly-seeded encrypted message is requested for verification 
+    - Entity is provably linked to account creation on service
+    - API authentication is generated for the account
+- Address Ownership Verification
+  - Entities are tasked with creating signature objects from originating private keys
+  	- Web3js is utilized to recover from the signature object the corresponding public address
+  		- SHA-512 hash of address is added to indexed database, linked to entity ID
+- End-user Lookup
+  - API can be integrated into wallets or other applications, where the addresses sent to the lookup API are prehashed on the local machine to decrease computational energy.
+  	- Entity ID is referenced to entity name and the result is returned to the requesting party.
 
+### The Future of vericha.in
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+As the service does not take commissions from any parties in its current state, publicly offered voting tokens will be used initially for funding. **VRCN** token holders will be able to create proposals and vote on issues concerning the future of the service.

@@ -1,0 +1,20 @@
+---
+---
+@import "{{ site.theme }}";
+
+.downloads li {
+  width: 100%;
+}
+
+gradientlinks {
+  background-color: #3ab4a9;
+  background-image: linear-gradient(67deg, #3ab4a9 0%, #54fd1d 50%, #fcec45 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+gradientlinks:hover, gradientlinks:focus {
+  color:#3ab4a9;
+  font-weight: bold;
+}
+

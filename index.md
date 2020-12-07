@@ -5,6 +5,7 @@ layout: default
 ## Connecting Blockchain Addresses with Trusted Entities
 
 Attila Perez
+
 [attila@vericha.in](mailto:attila@vericha.in)
 
 December 2020
@@ -19,7 +20,6 @@ There should be whitespace between paragraphs.
 >
 >	-Vitalik Buterin, co-founder, Ethereum
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 ## Requirements For Such a Service
 
@@ -36,41 +36,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ![Ethereum Signing](https://vericha.in/assets/images/signatures1.png)
 
+Cryptographic signatures are built into web3js, allowing ECDSA-method signed messaging completely off-blockchain. This means that there is no gas requirement, decreasing cost per function greatly. 
 
 
-#### Header 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
 
 ### And a nested list:
 

@@ -2,23 +2,41 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Connecting Blockchain Addresses with Trusted Entities
 
-[Link to another page](./another-page.html).
+Attila Perez
+[attila@vericha.in](mailto:attila@vericha.in)
 
-There should be whitespace between paragraphs.
+December 2020
+
+##### Abstract
+
+Public accountability and trust in entities are necessary parts of a working decentralized financial (defi) ecosystem. Vericha.in aims to fill a gap in the defi space by providing a living and breathing, publicly verifiable source for blockchain address ownership. This is achieved using a combination of cryptographic digital identity verification techniques as well as an open backend that allows for vetting of the service’s practices by third parties. The service never stores persistent addresses, only hashes, creating a one-way lookup system. Scraping of an entity’s owned addresses becomes a fruitless endeavor. An end-user-facing API allows for integration into third party wallets and public projects.
+
+
+>As society becomes more and more complex, cheating will in many ways become progressively easier and easier to do and harder to police or even understand.
+There should be whitespace between paragraphs. 
+>
+>	-Vitalik Buterin, co-founder, Ethereum
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+## Requirements For Such a Service
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+1.  Completely public codebase, including each vector (frontend, backend, open-source API tools) ☑️
+2.  Capable of defense from scraping an entity's addresses ☑️
+3.  Third-parties are able to verify the legitimacy of entities ☑️
 
-## Header 2
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### The Solution
+
+* * *
+
+### Harnessing The Power of Preexisting Cryptographic Frameworks
+
+![Ethereum Signing](https://vericha.in/assets/images/signatures1.png)
+
+
 
 #### Header 4
 
@@ -26,11 +44,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
 
 ###### Header 6
 
@@ -75,11 +88,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
   - level 2 item
 - level 1 item
 
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 

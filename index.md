@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Developing Synthetic CDO Products For On-Chain Finance
+### Developing Synthetic CDO Products For On-Chain Finance Utilizing Opium.Exchange
 
 Attila Perez
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Developing Synthetic Collateralized Debt Obligations For the opium Protocol
+### Developing Synthetic Collateralized Debt Obligations For the opium Platform
 
 Attila Perez
 
@@ -21,6 +21,7 @@ management opportunities.
 
 
 >Ethereum's superpower is decentralization, its open source bazaar approach. Problems pop up and people show up from all over to address them.
+>
 >	-Joseph Lubin, Founder, ConsenSys
 
 

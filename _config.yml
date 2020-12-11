@@ -27,7 +27,7 @@ url: "https://peyote.network" # the base hostname & protocol for your site, e.g.
 #twitter_username: jekyllrb
 #github_username:  jekyll
 logo: "/assets/images/logo.png"
-pdf-url: "/assets/verichain.pdf"
+pdf-url: "/assets/peyote.pdf"
 # Build settings
 #theme: minima
 theme: jekyll-theme-minimal

@@ -8,12 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
     <style>
       h1 {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Poppins', sans-serif;;
   }
+  footer {
+    font-family: 'Poppins', sans-serif;
+    color:#90CABD;
+  }
+  a {
+  color:#CA9090;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#A37373;
+  font-weight: bold;
+}
   </style>
 {% seo %}
-    <link rel="stylesheet" href="{{ "assets/css/b.css" | prepend: site.baseurl }}">
-    <link rel="shortcut icon" type="image/png" href="/assets/images/link.png">
+    <link rel="stylesheet" href="{{ "assets/css/c.css" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/thales.png">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -21,10 +34,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a class="h1" href="https://vericha.in/">{{ site.title | default: site.github.repository_name }}</a></h1>
+<!--      <h1><a class="h1" href="https://vericha.in/">{{ site.title | default: site.github.repository_name }}</a></h1> -->
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <a class="h1" href="https://peyote.network/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -39,7 +52,7 @@
 
       </section>
       <footer>
-        <p>This project is maintained by <a href="mailto: attila@vericha.in">Attila Perez</a>.</p>
+        <p>A miletus formation.</a></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

@@ -7,8 +7,14 @@
   width: 100%;
 }
 
-poppins-regular {
-	font-family: 'Poppins', sans-serif;
+a {
+  color:#CA9090;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#A37373;
+  font-weight: bold;
 }
 
 

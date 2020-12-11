@@ -21,7 +21,7 @@
 title: peyote.network
 email: attila@peyote.network
 description: >- # this means to ignore newlines until "baseurl:"
-        Developing advanced debt futures instruments for the future of decentralized finance.
+        Developing advanced debt-derived instruments for the future of on-chain decentralized finance.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://peyote.network" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

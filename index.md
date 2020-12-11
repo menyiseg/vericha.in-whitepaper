@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Developing Synthetic Collateralized Debt Obligations For the opium Platform
+### Developing Synthetic CDOs Products For On-Chain Finance
 
 Attila Perez
 
